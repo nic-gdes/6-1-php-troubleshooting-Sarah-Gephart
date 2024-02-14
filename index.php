@@ -38,11 +38,10 @@
 
 <?php
   // Question 5
-  $name = "Sarah";
   function greet($name) {
     echo "Hello, " . $name;
   }
-  greet($name);
+  greet("Sarah");
 ?>
 
 <hr />
